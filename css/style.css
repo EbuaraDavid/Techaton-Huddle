@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/bg-mobile.svg");
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.logo img {
+  width: 130px;
+  margin: 20px 0 50px 30px;
+}
+.content img {
+  width: 320px;
+  margin: 20px 0 50px 30px;
+}
+.copy h1 {
+  width: 320px;
+  margin: 0px 0 20px 35px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+}
+.copy p {
+  width: 310px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15.5px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.link {
+  background-color: white;
+  /* color: hsl(300, 69%, 71%); */
+  padding: 7px 60px;
+  width: fit-content;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px black;
+}
+.link:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+.link a {
+  text-decoration: none;
+}
+.link a:hover {
+  color: white;
+}
+.social-media {
+  color: white;
+  width: fit-content;
+  margin: 50px auto;
+}
+.social-media i {
+  width: 35px;
+  height: 35px;
+  border: 1.5px solid;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 5px;
+}
+.social-media i:hover {
+  color: hsl(300, 69%, 71%);
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+  }
+  .logo {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .content {
+    display: flex;
+  }
+  .content img {
+    width: 650px;
+    margin: 20px 0 50px 80px;
+  }
+  .copy {
+    margin-bottom: 0px;
+  }
+  .copy h1 {
+    width: 350px;
+    margin: 0px 0 20px 0px;
+    font-size: 33px;
+    text-align: left;
+  }
+  .copy p {
+    width: 460px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    opacity: 0.8;
+  }
+  .link {
+    padding: 15px 70px;
+    width: fit-content;
+    margin: 20px 0;
+    border-radius: 50px;
+  }
+  .copy {
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+  .social-media {
+    margin-right: 0;
+    margin-top: 120px;
+  }
+}
